@@ -3,18 +3,18 @@
 Docker example with WordPress integrated.
 
 Using:
-    * WordPress 5.7.2
-    * PHP7.4
+   * WordPress 5.7.2
+   * PHP7.4
 
 Included shell script to install.
 
 
 Requirements:
-    * Windows:
-        * WSL2 Backend
-        * Docker Desktop
-    * MacOS:
-        * Docker Desktop
+   * Windows:
+      * WSL2 Backend
+      * Docker Desktop
+   * MacOS:
+      * Docker Desktop
 
 Link for docker Desktop: https://docs.docker.com/desktop/
 
