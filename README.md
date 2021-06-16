@@ -1,21 +1,30 @@
-# docker-lamp
+# wordpress-docker
 
-Docker example with Apache, MySql 8.0, PhpMyAdmin and Php
+Docker example with WordPress integrated.
 
-- You can use MariaDB 10.1 if you checkout to the tag `mariadb-10.1` - contribution made by [luca-vercelli](https://github.com/luca-vercelli)
-- You can use MySql 5.7 if you checkout to the tag `mysql5.7`
+Using:
+    - WordPress 5.7.2
+    - PHP7.4
 
-I use docker-compose as an orchestrator. To run these containers:
+Included shell script to install.
+
+
+Requirements:
+    - Windows:
+        - WSL2 Backend
+        - Docker Desktop
+    - MacOS:
+        - Docker Desktop
+
+Link for docker Desktop: https://docs.docker.com/desktop/
+
 
 ```
-docker-compose up -d
+git clone https://github.com/grantjm9992/wordpress-docker.git
+cd wordpress-docker
+bash ./scripts/install.sh
 ```
 
-Open phpmyadmin at [http://localhost:8000](http://localhost:8000)
-Open web browser to look at a simple php example at [http://localhost:8001](http://localhost:8001)
-
-Run mysql client:
-
-- `docker-compose exec db mysql -u root -p` 
+Open your web browser at [http://localhost:8001](http://localhost:8001) to install WordPress using the wizard.
 
 Enjoy !
